@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "pretty": true,
+    "sourceMap": true,
+    "strict": false,
+    "target": "es5",
+    "baseUrl": "."
+  },
+  "include": [
+    "config/**/*",
+    "server/**/*",
+    "src/**/*",
+    "test/**/*"
+  ],
+  "exclude": [
+    ".cache-loader/",
+    ".git/",
+    ".idea/",
+    ".monitor/",
+    ".old/",
+    ".vscode/",
+    "dist/",
+    "docs/",
+    "node_modules/",
+    "resources/",
+    "static/"
+  ]
+}
